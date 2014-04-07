@@ -1,0 +1,9 @@
+{
+    "name": "RabbitMQ",
+    "version": "0.0.1",
+    "dependencies": {
+        "should": "*",
+        "amqplib": "*",
+        "underscore": "*"
+    }
+}
