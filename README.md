@@ -30,7 +30,7 @@
 Создает подключение до Rabbit. Используется метод `connect` из amqp.node
 Подробнее: http://squaremo.github.io/amqp.node/doc/channel_api.html#toc_1
 
-##RabbitMQ
+## RabbitMQ
 
 ### new RabbitMQ(name, [options], [connect])
 Создание обработчика очереди. `name` строка имени очереди с которой будет происходить работа.
@@ -69,7 +69,7 @@
 ### RabbitMQ#connected()
 Возвращает открыто ли подключение до Rabbit. true или false.
 
-##Message
+## Message
 
 ### new Message(message, [connect], [needAck])
 Создание объекта сообщения.
@@ -87,6 +87,7 @@
 
 ### Event "reply"
 Срабатывет при ответе на сообщение.
+
 __Example__:
 ```javascript
     //...
@@ -100,5 +101,4 @@ __Example__:
 TODO:
 * Реализовать методы управления очередью, такие как удаление, изменение параметров и т.д.
 * Сделать возможность мульти канального подключения
-
-
+* Сделать работу с разными точками обмена
