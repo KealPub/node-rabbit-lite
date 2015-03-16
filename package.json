@@ -1,5 +1,5 @@
 {
-  "name": "fbs-rabbit",
+  "name": "rmqlite",
   "version": "0.0.3",
   "dependencies": {
     "amqplib": "0.1.3",
